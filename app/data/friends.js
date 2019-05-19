@@ -1,6 +1,6 @@
 //Friends Data
 
-var friendsData = [
+let friendsData = [
     
     {
   "name":"Margaret",
@@ -73,3 +73,6 @@ var friendsData = [
   }
 
 ];
+
+  // Export to API Route
+  module.exports = friendsData;
