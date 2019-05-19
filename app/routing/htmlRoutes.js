@@ -14,3 +14,6 @@ function htmlRoutes(app) {
         res.sendFile(path.join(__dirname + "/../public/home.html"));
     });
 };
+
+// Export for use in main server.js file
+module.exports = htmlRoutes;
