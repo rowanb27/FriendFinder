@@ -67,3 +67,6 @@ var friendsData = require('../data/friends.js');
   });
 
 }
+
+// Export for use in main server.js file
+module.exports = apiRoutes;
